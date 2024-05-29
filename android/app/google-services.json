@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "92923107737",
+    "project_id": "tubes-unique",
+    "storage_bucket": "tubes-unique.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92923107737:android:9b250bb2b6ad4eef56db08",
+        "android_client_info": {
+          "package_name": "com.example.tubes_unique"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfZE9bRPELl7rlGMnUpWlcme6VW_Ymqr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
