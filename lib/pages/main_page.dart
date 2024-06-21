@@ -27,7 +27,7 @@ class _MainPageState extends State<MainPage> {
     return Scaffold(
       appBar: (currentindex == 0)
           ? CalendarAppBar(
-              accent: Colors.green,
+              accent: Colors.blue,
               backButton: false,
               locale: 'id',
               onDateChanged: (value) => print(value),
@@ -55,7 +55,7 @@ class _MainPageState extends State<MainPage> {
               setState(() {});
             });
           },
-          backgroundColor: Colors.green,
+          backgroundColor: Colors.blue,
           child: Icon(Icons.add),
         ),
       ),

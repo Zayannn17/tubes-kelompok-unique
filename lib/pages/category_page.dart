@@ -26,7 +26,7 @@ class _CategoryPageState extends State<CategoryPage> {
                     (isExpense) ? "Add Income" : "Add Income",
                     style: GoogleFonts.montserrat(
                         fontSize: 18,
-                        color: (isExpense) ? Colors.red : Colors.green),
+                        color: (isExpense) ? Colors.black : Colors.blue),
                   ),
                   SizedBox(
                     height: 10,
@@ -42,7 +42,7 @@ class _CategoryPageState extends State<CategoryPage> {
                       onPressed: () {},
                       style: ButtonStyle(
                           backgroundColor:
-                              MaterialStateProperty.all(Colors.green)),
+                              MaterialStateProperty.all(Colors.blue)),
                       child: Text(
                         "Save",
                         style: GoogleFonts.montserrat(color: Colors.white),
@@ -71,9 +71,9 @@ class _CategoryPageState extends State<CategoryPage> {
                     isExpense = value;
                   });
                 },
-                inactiveTrackColor: Colors.green[200],
-                inactiveThumbColor: Colors.green,
-                activeColor: Colors.red,
+                inactiveTrackColor: Colors.blue[200],
+                inactiveThumbColor: Colors.black,
+                activeColor: Colors.blue,
               ),
               IconButton(
                   onPressed: () {
@@ -89,8 +89,8 @@ class _CategoryPageState extends State<CategoryPage> {
             elevation: 10,
             child: ListTile(
               leading: (isExpense)
-                  ? Icon(Icons.upload, color: Colors.red)
-                  : Icon(Icons.download, color: Colors.green),
+                  ? Icon(Icons.upload, color: Colors.blue)
+                  : Icon(Icons.download, color: Colors.black),
               title: Text(
                 "Sedekah",
               ),
@@ -113,8 +113,8 @@ class _CategoryPageState extends State<CategoryPage> {
             elevation: 10,
             child: ListTile(
               leading: (isExpense)
-                  ? Icon(Icons.upload, color: Colors.red)
-                  : Icon(Icons.download, color: Colors.green),
+                  ? Icon(Icons.upload, color: Colors.blue)
+                  : Icon(Icons.download, color: Colors.black),
               title: Text(
                 "Makan",
               ),
